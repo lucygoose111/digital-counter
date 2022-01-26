@@ -7,7 +7,7 @@ clearBtn.addEventListener('click',()=>{
 
     if (counter.value !== '') {
 
-        counter.value = '0';
+        counter.value = '';
 
     }
 
@@ -39,6 +39,8 @@ function changeNumber(number) {
 
 function countUp() {
 
+    if (counter.value === '') {counter.value = '1';return;}
+
     let number = parseInt(counter.value);
     number = number + 1;
     counter.value = number.toString();
@@ -46,6 +48,8 @@ function countUp() {
 }
 
 function countDown() {
+
+    if (counter.value === '') {counter.value = '-1';return;}
 
     let number = parseInt(counter.value);
     number = number - 1;
