@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Roadgeek-2005;
+  src: url(../../Fonts/roadgeek-2005.ttf);
+}
+
+@font-face {
+  font-family: Highway-Gothic;
+  src: url(../../highway-gothic.ttf);
+}
+
+@font-face {
+  font-family: Highway-Gothic-Wide;
+  src: url(../../highway-gothic-wide.ttf);
+}
+
+@font-face {
+  font-family: Interstate-Condensed;
+  src: url(../../Fonts/interstate-cond.ttf);
+}
+
+@font-face {
+  font-family: Mittelschrift;
+  src: url(../../Fonts/mittelschrift.ttf);
+}
