@@ -5,6 +5,10 @@ body {
   flex-direction: column;
 }
 
+button {
+  cursor: pointer;
+}
+
 #counter-bg {
   display: flex;
   background-color: rgb(68, 68, 68);

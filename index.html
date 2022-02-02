@@ -12,14 +12,27 @@
   </head>
 
   <div id="settings">
-    Choose font:<select id="font-select">
-      <option id="arial">Arial</option>
-      <option id="highway-gothic">Highway Gothic</option>
-      <option id="highway-gothic-wide">Highway Gothic Wide</option>
-      <option id="roadgeek-2005">Roadgeek 2005</option>
-      <option id="mittelschrift">Mittelschrift</option>
-      <option id="interstate-cond">Interstate Condensed</option>
+    Choose font:
+    <select id="font-select">
+      <option id="arial" style="font-family: Arial">Arial</option>
+      <option id="highway-gothic" style="font-family: Highway-Gothic">
+        Highway Gothic
+      </option>
+      <option id="highway-gothic-wide" style="font-family: Highway-Gothic-Wide">
+        Highway Gothic Wide
+      </option>
+      <option id="roadgeek-2005" style="font-family: Roadgeek-2005">
+        Roadgeek 2005
+      </option>
+      <option id="mittelschrift" style="font-family: Mittelschrift">
+        Mittelschrift
+      </option>
+      <option id="interstate-cond" style="font-family: Interstate-Condensed">
+        Interstate Condensed
+      </option>
     </select>
+    Choose automatic count speed:
+    <input type="text" id="auto-count-speed" value="500" maxlength="6" />
   </div>
 
   <body>
@@ -69,7 +82,8 @@
           0
         </button>
       </div>
-
+    </div>
+    <div id="btn-count-con" style="display: flex">
       <button id="count-up">Count up</button>
       <button id="count-down">Count down</button>
       <button id="clear">Clear</button>
