@@ -22,3 +22,9 @@
   font-family: Mittelschrift;
   src: url(../../Fonts/mittelschrift.ttf);
 }
+
+@font-face {
+  font-family: Digital;
+  src: url(../../Fonts/digital.ttf);
+}
+
